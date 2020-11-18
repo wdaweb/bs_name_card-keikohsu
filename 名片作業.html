@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <style>
+    * {
+      transition: 1s;
+      overflow: hidden;
+    }
+
+    .picture  {
+
+      width: 450px;
+      height: 300px;
+      background: url(./K.jpg);
+    }
+
+    .PictureBottom {
+      width: 450px;
+      height: 600px;
+    }
+
+
+
+    @media(min-width:576px) {
+
+      .picture {
+
+        width: 450px;
+        height: 300px;
+        background: url(./K.jpg);
+      }
+
+      .PictureBottom {
+        width: 450px;
+        height: 300px;
+      }
+    }
+
+    @media (min-width:992px) {
+
+      .picture {
+
+        width: 400px;
+        height: 400px;
+        background: url(./K直.jpg);
+        box-shadow:4px 12px 15px -2px rgba(20%,20%,40%,0.3);
+      }
+
+      .PictureBottom{
+
+        width: 450px;
+        height: 400px;
+        box-shadow:12px 12px 15px -2px rgba(20%,20%,40%,0.3);
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container  vh-100">
+    <div class="row justify-content-center align-items-center   h-100 shadow py-3 mb-1 bg-white rounded">
+      <div class="col-sm-6 col-xl-3 bg-info picture ">
+
+      </div>
+      <div class="row  justify-content-center align-items-center PictureBottom  bg-dark ">
+
+        <div class=" col-12  p-xl-5 text-white ">
+
+          <h4 class="pl-5">Front-end Designer</h4>
+          <h1 class="pl-5">KKKeiko</h1>
+          <h2 class="pl-5">泰山職訓局</h2>
+          <div class="col pl-5 pt-5">
+          <h6>住址: 新北市明志路明志街87號5樓</h6>
+          <h6 >電話: 08-00000123</h6>
+          <h6 >E-Mail: keiko1234568@kimo.com</h6>
+</div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
